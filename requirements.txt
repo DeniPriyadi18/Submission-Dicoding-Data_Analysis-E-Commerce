@@ -1,6 +1,6 @@
-1. babel
-2. matplotlib
-3. numpy
-4. pandas
-5. seaborn
-6. streamlit
+babel
+matplotlib
+numpy
+pandas
+seaborn
+streamlit
