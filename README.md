@@ -12,9 +12,9 @@
 This project is a data analysis and visualization project focused on e-commerce public data. It includes code for data wrangling, exploratory data analysis (EDA), and a Streamlit dashboard for interactive data exploration. This project aims to analyze data on the E-Commerce Public Dataset.
 
 ## Project Structure
+-`Dashboard/` : Directory for the access dashboard
 - `data/`: Directory containing the raw CSV data files.
 - `Proyek_Analisis_Data.ipynb`: This file is used to perform data analysis.
-- `dashboard.py` : This file is used to perform dashboard
 - `README.md`: This documentation file.
 - `requirements.txt` : This file is a library that must be installed
 - `url.txt` : This file is a link to access the deployed dashboard.
