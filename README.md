@@ -39,5 +39,10 @@ pip install -r requirements.txt
 
 3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
 
+## Run steamlit app
+```
+streamlit run dashboard.py
+```
+
 ## Data Sources
 The project uses E-Commerce Public Dataset from [Belajar Analisis Data dengan Python's Final Project](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
