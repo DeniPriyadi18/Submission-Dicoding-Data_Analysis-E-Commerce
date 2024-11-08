@@ -22,7 +22,7 @@ This project is a data analysis and visualization project focused on e-commerce 
 ## Installation
 1. Clone this repository to your local machine:
 ```
-[git clone https://github.com/mhdhfzz/data-analyst-dicoding.git](https://github.com/DeniPriyadi18/Submission-Dicoding-Data_Analysis-E-Commerce.git)
+[git clone https://github.com/DeniPriyadi18/Submission-Dicoding-Data_Analysis-E-Commerce.git]
 ```
 2. Go to the project directory
 ```
