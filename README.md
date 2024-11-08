@@ -15,9 +15,11 @@ This project is a data analysis and visualization project focused on e-commerce 
 
 ## Project Structure
 - `data/`: Directory containing the raw CSV data files.
-- `notebook.ipynb`: This file is used to perform data analysis.
+- `Proyek_Analisis_Data.ipynb`: This file is used to perform data analysis.
 - `dashboard.py` : This file is used to perform dashboard
 - `README.md`: This documentation file.
+- `requirements.txt` : This file is a library that must be installed
+- `url.txt` : This file is a link to access the deployed dashboard.
 
 ## Installation
 1. Clone this repository to your local machine:
@@ -26,7 +28,7 @@ This project is a data analysis and visualization project focused on e-commerce 
 ```
 2. Go to the project directory
 ```
-cd data-analyst-dicoding
+cd Submission-Dicoding-Data_Analysis-E-Commerce
 ```
 3. Install the required Python packages by running:
 ```
