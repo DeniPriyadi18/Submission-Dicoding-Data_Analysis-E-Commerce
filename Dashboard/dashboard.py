@@ -52,7 +52,7 @@ def create_cancel_order_df(df):
 
     return cancel_order_df
 
-def crete_late_order_item_df(df):
+def create_late_order_item_df(df):
     late_order_item_df = df[df['delivery_status']=='late']
     late_order_item_df = late_order_item_df.groupby(by='seller_city').size().reset_index(name = 'total_late')
     late_order_item_df = late_order_item_df.sort_values(by='total_late',ascending = False)
@@ -75,7 +75,7 @@ def create_rfm_df(df):
     
     return rfm_df
 
-df = pd.read_csv("e-commerce.csv")
+df = pd.read_csv('./Dashboard/e-commerce.csv')
 
 datetime_columns = ['order_purchase_timestamp','order_approved_at','order_delivered_carrier_date','order_delivered_customer_date','order_estimated_delivery_date', 'shipping_limit_date']
 df.sort_values(by='order_purchase_timestamp', inplace =True)
@@ -100,7 +100,7 @@ daily_order_df = create_daily_order_df(main_df)
 sum_order_item_df = create_sum_order_item_df(main_df)
 customer_city_df = create_customer_city_df(main_df)
 cancel_order_df = create_cancel_order_df(main_df)
-late_order_item_df = crete_late_order_item_df(main_df)
+late_order_item_df = create_late_order_item_df(main_df)
 customer_state_df = create_customer_state_df(main_df)
 rfm_df = create_rfm_df(main_df)
 
