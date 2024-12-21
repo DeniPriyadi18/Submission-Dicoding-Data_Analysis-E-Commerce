@@ -1,6 +1,3 @@
-# E-Commerce Public Data Analysis with Python - Dicoding
-[E-Commerce Data Dashboard Streamlit App](https://submission-dicoding-dataanalysis-e-commerce-7zdivt2k33oveuzbet.streamlit.app/)
-
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -39,10 +36,12 @@ pip install -r requirements.txt
 
 3. **Visualization**: Run the Streamlit dashboard for interactive data exploration:
 
+##Deploy streamlit app
+[E-Commerce Data Dashboard Streamlit App](https://submission-dicoding-dataanalysis-e-commerce-7zdivt2k33oveuzbet.streamlit.app/)
+
 ## Run steamlit app
 ```
-streamlit run dashboard.py
+streamlit run ./Dashboard/dashboard.py
 ```
-
 ## Data Sources
 The project uses E-Commerce Public Dataset from [Belajar Analisis Data dengan Python's Final Project](https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view) offered by [Dicoding](https://www.dicoding.com/).
